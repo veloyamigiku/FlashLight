@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  FlashLight
 //
-//  Created by れおん on 2016/02/22.
+//  Created on 2016/02/22.
 //
 //
 
