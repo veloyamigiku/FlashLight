@@ -1,0 +1,13 @@
+//
+//  FlashLight-Prefix.pch
+//  FlashLight
+//
+//  Created on 2016/02/22.
+//
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
+#endif

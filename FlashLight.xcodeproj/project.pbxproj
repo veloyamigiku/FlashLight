@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35886D9D1C7B491B00482549 /* FlashLight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashLight-Prefix.pch"; sourceTree = "<group>"; };
 		35B215A21C7B44AA00CFE974 /* FlashLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B215A61C7B44AA00CFE974 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35B215A81C7B44AA00CFE974 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 			children = (
 				35B215A81C7B44AA00CFE974 /* AppDelegate.h */,
 				35B215A91C7B44AA00CFE974 /* AppDelegate.m */,
+				35886D9D1C7B491B00482549 /* FlashLight-Prefix.pch */,
 				35B215AB1C7B44AA00CFE974 /* ViewController.h */,
 				35B215AC1C7B44AA00CFE974 /* ViewController.m */,
 				35B215AE1C7B44AA00CFE974 /* Main.storyboard */,
@@ -262,6 +264,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FlashLight/FlashLight-Prefix.pch";
 				INFOPLIST_FILE = FlashLight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.myself.FlashLight;
@@ -275,6 +279,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FlashLight/FlashLight-Prefix.pch";
 				INFOPLIST_FILE = FlashLight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.myself.FlashLight;
