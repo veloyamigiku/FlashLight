@@ -10,6 +10,15 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UISwitch *lightSwitch;
+
+@property (weak, nonatomic) IBOutlet UISlider *brightnessSlider;
+
+- (IBAction)performLightSwitchAction:(id)sender;
+
+- (IBAction)performBrightnessSliderAction:(id)sender;
+
+
 @end
 
 @implementation ViewController
@@ -24,4 +33,11 @@
     [super didReceiveMemoryWarning];
 }
 
+- (IBAction)performLightSwitchAction:(id)sender
+{
+}
+
+- (IBAction)performBrightnessSliderAction:(id)sender
+{
+}
 @end
